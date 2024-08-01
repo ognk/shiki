@@ -1,0 +1,30 @@
+.b-collection-topic .collection-groups .cc-collection-groups {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 30px 15px;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .c-column {
+  width: 100%;
+  margin: 0;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.completed {
+  order: -6;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.watching {
+  order: -5;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.rewatching {
+  order: -4;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.on_hold {
+  order: -3;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.planned {
+  order: -2;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry {
+  order: -1;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.dropped {
+  order: 0;
+}
